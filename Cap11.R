@@ -1,6 +1,6 @@
 # Livro: Análise Estatística com R para Leigos
-# Neste Capítulo  11: Teste de Hipótse para Duas Amostras----------------------------------------------------------
-
+#  Capítulo  11: Teste de Hipótse para Duas Amostras----------------------------------------------------------
+# Neste:
 ## Testando diferença entre as médias de duas amostras
 ## Testando médias de amostras emparelhadas
 ## Testando hipóteses sobre variância
