@@ -2,10 +2,13 @@
 # Neste Capítulo  11----------------------------------------------------------
 # Página: 209-223
 
-## Testando diferença entre as média de duas amostras
-## Testando méias de amostras emparelhadas
+## Testando diferença entre as médias de duas amostras
+## Testando médias de amostras emparelhadas
 ## Testando hipóteses sobre variância
 ## Entendendo a distruição F
+
+# Pacote necdessário para essa seção
+# install.packages("ggplot2") - pacote a ser instalado: retire o # para instalar e depois coloque novamente
 
 # Teste-z para duas amostras em R -----------------------------------------------------
 sample1 <- c(100, 118, 97, 92, 118, 125, 136, 95, 111)
@@ -137,8 +140,6 @@ with(FarKlemp.frame, t.test(prod.time~machine,
 
 
 # Conjunto Combinado ------------------------------------------------------
-
-usethis::use_github()
 
 
 
