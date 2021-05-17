@@ -1,5 +1,8 @@
 # Livro: Análise Estatística com R para Leigos
 # Neste Capítulo  11----------------------------------------------------------
+
+# Teste de Hipótse para Duas Amostras
+
 # Página: 209-223
 
 ## Testando diferença entre as médias de duas amostras
@@ -136,16 +139,17 @@ with(FarKlemp.frame, t.test(prod.time~machine,
                             alternative = "two.sided",
                             mu=0))
 
-
-
-
 # Conjunto Combinado ------------------------------------------------------
+# Para os testes-t de amostras emparelhadas usamos a mesma fórmula dos testes-t de
+# amostras independentes
 
+pessoas <- c(1,2,3,4,5,6,7,8,9,10)
+pesosAntesDoPrograma <- c(198,201,210,185,204,156,167,197,220,186)
+pesoDepoisDeUmes <- c(194,203,200,183,200,153,166,197,215,184)
+diferenca <- pesosAntesDoPrograma-pesoDepoisDeUmes
 
+df <- data.frame(pessoas, pesos, pesoDepoisDeUmes, diferenca)
 
+t.test(pesosAntesDoPrograma, pesoDepoisDeUmes, alternative = "greater", paired = T)
 
-
-
-
-
-
+# Conclusão: Por causa do p-value muito baixo, rejeitamos a hipótese nula
