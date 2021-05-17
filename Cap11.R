@@ -153,15 +153,3 @@ t.test(pesosAntesDoPrograma, pesoDepoisDeUmes, alternative = "greater", paired =
 
 # Conclusão: Por causa do p-value muito baixo, rejeitamos a hipótese nula
 
-
-pessoas <- c(1,2,3,4,5,6,7,8,9,10)
-pesosAntesDoPrograma <- c(198,201,210,185,204,156,167,197,220,186)
-pesoDepoisDeUmes <- c(194,203,200,183,200,153,166,197,215,184)
-diferenca <- pesosAntesDoPrograma-pesoDepoisDeUmes
-
-df <- data.frame(pessoas, pesos, pesoDepoisDeUmes, diferenca)
-
-t.test(pesosAntesDoPrograma, pesoDepoisDeUmes, alternative = "greater", paired = T)
-
-# Conclusão: Por causa do p-value muito baixo, rejeitamos a hipótese nula
-
