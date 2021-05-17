@@ -136,7 +136,9 @@ with(FarKlemp.frame, t.test(prod.time~machine,
 
 
 
+# Conjunto Combinado ------------------------------------------------------
 
+usethis::use_github()
 
 
 
