@@ -1,5 +1,8 @@
 # Livro: Análise Estatística com R para Leigos
 # Neste Capítulo  11----------------------------------------------------------
+
+# Teste de Hipótse para Duas Amostras
+
 # Página: 209-223
 
 ## Testando diferença entre as médias de duas amostras
